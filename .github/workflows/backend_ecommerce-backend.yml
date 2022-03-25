@@ -4,7 +4,7 @@
 name: Build and deploy JAR app to Azure Web App - ecommerce-backend
 
 on:
-  p:
+  push:
     branches:
       - main
 jobs:
