@@ -1,6 +1,6 @@
 on:
   workflow_run:
-    workflows: [backend_ecommerce-backend.yml]
+    workflows: [Build and deploy JAR app to Azure Web App - ecommerce-backend]
     types: [completed]
 
 jobs:
