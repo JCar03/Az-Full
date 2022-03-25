@@ -5,14 +5,6 @@
 
   on:
     workflow_call:
-     inputs:
-          username:
-            required: false
-            type: string
-     secrets:
-          token:
-            required: false
-
   jobs:
     build:
       runs-on: ubuntu-latest
