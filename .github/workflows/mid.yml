@@ -1,3 +1,5 @@
+name: Middle
+
 on:
   workflow_run:
     workflows: [Build and deploy JAR app to Azure Web App - ecommerce-backend]
